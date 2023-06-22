@@ -1,0 +1,23 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: rgb(255, 255, 255);
+    color: brown;
+
+    
+}
+
+.Header h1 {
+
+    font-size: xx-large;
+    color: rgb(48, 1, 1);
+}
+
+.Header h2{
+
+    font-size: medium;
+    color: black;
+    font-style: oblique;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -3,10 +3,11 @@ import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 
 const CartWidget = () => {
     return (
-        <div >
-            <ShoppingBasketIcon sx={{color: "black"}} />
-            <p style={{color: "black"}}>0</p>
+        <div style={{display:"flex", alignContent:"center", justifyItems: "center"}}>
+            <p style={{color: "white"}}>0</p>
+            <ShoppingBasketIcon sx={{color: "white"}} />
         </div>
+      
     )
 }
 

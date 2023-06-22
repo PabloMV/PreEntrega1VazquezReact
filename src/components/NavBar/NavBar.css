@@ -1,7 +1,34 @@
-ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    
-  }
+.nav {
+  background-color: rgb(48, 1, 1);
+  height: 10vh;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  font-style: normal;
+}
+  .nav ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+ .nav Li {
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+}
+
+.nav a {
+text-decoration: none;
+color: white;
+}
+
+.Li {
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold}
